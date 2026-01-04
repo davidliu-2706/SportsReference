@@ -1,0 +1,38 @@
+
+table {
+  border-collapse: collapse;
+  border: 1.5px solid #7d7878;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+
+th.row-team {
+  text-align: left !important;
+  font-weight: normal;
+}
+th.tm-cell {
+  text-align: center !important;
+}
+th,
+td {
+    border: 1px solid #ccc;   
+    padding: 4px 5px;
+    text-align: right;
+}
+
+#top-row {
+    text-align: center;
+    background-color: #dad8d875;
+    color: #a01212;
+    font-weight: bold;
+    border-bottom: 1.5px solid #7d7878;
+}
+
+#bottom-row {
+    text-align: center;
+    background-color: #dad8d875;
+    font-weight: bold;
+    border-top: 1.5px solid #7d7878;
+}
+
