@@ -1,6 +1,7 @@
 # Overview
 Using the json data, I re-created the required table using TypeScript, although a React solution would work as well
 As web browsers do not natively execute TypeScript, I also incorporated Vite to help my table compile in a browser tab. To run this on your local machine, run npm install to obtain all required dependencies.
+To run in the terminal, execute "npm run dev" and open the corresponding localhost link.
 
 # main.ts
 The code to generate the table and its content is in the main.ts file. Here, I've divided the table into three main sections: the top header, the table body, and the bottom footer. The top header and bottom footer follow essentially the same structure, as it sets the first cell as "Tm". Then, it traverses through the data and creates a new cell for each team to ensure a dynamic and scalable solution.
