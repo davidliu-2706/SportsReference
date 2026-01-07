@@ -1,4 +1,4 @@
-The code can be cloned into a folder named "SportsReference"
+The code can be cloned into a root folder named "SportsReference"
 # Overview
 Using the json data, I re-created the required table using TypeScript, although a React solution would work as well
 As web browsers do not natively execute TypeScript, I also incorporated Vite to help my table compile in a browser tab. To run this on your local machine, run "npm install" in the root folder through the terminal to obtain all required dependencies. Then, execute "npm run dev" and open the corresponding localhost link to see the table.
